@@ -45,6 +45,5 @@ func main() {
 	log.Infof("GitSummary=%s\n", GitSummary)
 	log.Infof("VERSION=%s\n", Version)
 
-	log.Info("Starting working...")
-
+	log.Info("Done")
 }
