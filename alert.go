@@ -13,6 +13,7 @@ import (
 var pwdCurr string = "KristinaEtc/github.com/alert"
 var log = slf.WithContext(pwdCurr)
 
+//PlayMusic was taken from example: github.com/gordonklaus/portaudio
 func PlayMusic(fileName string) {
 
 	log.Info("Playing.  Press Ctrl-C to stop.")
